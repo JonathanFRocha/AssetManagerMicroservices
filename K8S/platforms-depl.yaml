@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: platforms-depl
@@ -15,3 +15,5 @@ spec:
       containers:
         - name: platformservice
           image: jonferroc/platformservice:latest
+---
+
